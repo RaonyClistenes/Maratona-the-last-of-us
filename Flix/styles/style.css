@@ -1,0 +1,134 @@
+#apresentation {
+    flex-direction: column;
+    width: 668px;
+    height: 330px;
+    margin-top: 120px;
+    margin-left: 154px;
+    gap: 34px;
+}
+
+.titulo {
+    font-size: 92px;
+    font-weight: 400;
+}
+
+#description {
+    font-size: 26px;
+    color: #C7C7C7CC;
+}
+
+#botoes {
+    gap: 30px;
+}
+
+#botao_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8E0000;
+    height: 46px;
+    width: 144.18px;
+}
+
+#botao_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #474747;
+    height: 46px;
+    width: 179.89px;
+}
+
+button {
+    width: 128.9px;
+    height: 28.84px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    line-height: 19.4px;
+    border: 1px solid #FFFFFF;
+}
+
+#inside {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    margin-left: 154px;
+}
+
+#imgs {
+    display: flex;
+    gap: 26.22px;
+}
+
+#survival,
+#relationship,
+#adventure {
+    border: 1px solid#2E2D2D;
+    border-radius: 2px;
+}
+
+#survival {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 139.21px;
+    width: 261.78px;
+    background-image:
+        url(/assets/inside/EP\ 2\ 2.png);
+}
+
+#relationship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 139.21px;
+    width: 261.78px;
+    background-image:
+        url(/assets/inside/FF3P7D3VJ5DZ5FGALN2YYQU3ZM\ 1.png);
+}
+
+#adventure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 139.21px;
+    width: 261.78px;
+    background-image:
+        url('/assets/inside/the-last-of-us\ 1.png');
+}
+
+#episodes {
+    display: flex;
+    background-image: url(/assets/episodes/1212581-the-last-of-us\ 1.png);
+    color: white;
+    gap: 78px;
+}
+
+#description__serie {
+    display: flex;
+    flex-direction: column;
+    gap: 96.36px;
+    margin-left: 154px;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    height: 646px;
+    width: 479px;
+    gap: 30px;
+}
+
+.episode_description {
+    font-size: 22px;
+    font-family: Actor;
+}
+
+.titulo-2 {
+    font-size: 80px;
+    font-weight: 400;
+}
+.title__episode{
+    font-family: Darker Grotesque;
+}

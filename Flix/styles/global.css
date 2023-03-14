@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Iceland;
+}
+
+header {
+    height: 982px;
+    background-image: url('/assets/The-Last-Of-Us-HBO-Wallpaper-13\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#logo-hori {
+    margin-left: 154px;
+    margin-right: 127px;
+    width: 254px;
+    height: 144px;
+}
+
+#head,
+#menu,
+section,
+#botoes {
+    display: flex;
+}
+
+#menu {
+    height: 100px;
+    width: 100%;
+    font-size: 26px;
+    align-items: center;
+    justify-content: start;
+    gap: 122px;
+}
+
+footer {
+    display: flex;
+    height: 377px;
+    background: linear-gradient(180deg, #000000 0%, #950202 289.06%);
+    color: white;
+}
+
+#end-page {
+    display: flex;
+    gap: 593px;
+}
+
+#logo-vert {
+    margin-left: 154px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#invitation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#titulo-invitation {
+    font-weight: 400;
+
+}
+
+#redes {
+    display: flex;
+    gap: 53px;
+}
+
+.list-episodes {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+#list_serie {
+    display: flex;
+    flex-direction: column;
+    width: 671px;
+    height: 182px;
+    gap: 80px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.div-description-serie {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
